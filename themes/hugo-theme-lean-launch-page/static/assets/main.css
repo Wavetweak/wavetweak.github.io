@@ -79,8 +79,8 @@ body{
 			}
 
 			form input[type="submit"]{
-				background-color: #FFD700;
-				background-color: #FFD700;
+				/* background-color: #FFD700; */
+				background-color: hsl(110, 70%, 65%);
 				width: 20%;
 				color: white;
 				font-weight: bold;

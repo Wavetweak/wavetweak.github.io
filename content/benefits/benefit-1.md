@@ -1,6 +1,6 @@
 ---
-title: "Benefit 1"
-icon: "fa-group"
+title: "Ultimate remix tool"
+icon: "fa-play"
 weight: 1
 ---
-Here's the first reason why this new product will benefit you. Words adding to the product description will help.
+Open any song, in DAW of your choice. Intelligent sample extraction, effect chain reversal and parameter search.

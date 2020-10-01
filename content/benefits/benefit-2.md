@@ -1,6 +1,6 @@
 ---
-title: "Benefit 2"
-icon: "fa-cogs"
+title: "Smart share"
+icon: "fa-share-alt-square"
 weight: 2
 ---
-Another benefit. Really tell people why they NEED to get this thing. Why is it better?
+Enhance your music production, by personal AI algorithm, which will accelerate your creative process while making a song
