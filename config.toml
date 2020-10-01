@@ -1,6 +1,6 @@
-baseurl = "https://themes.gohugo.io/theme/hugo-theme-lean-launch-page/"
-title = "My New Product"
-author = "Ricardo N Feliciano (FelicianoTech)"
+baseurl = "https://wavetweak.com"
+title = "WAVETWEAK"
+author = "Daniel Cieśliński"
 canonifyurls = true
 paginate = 3
 
@@ -9,7 +9,7 @@ theme = "hugo-theme-lean-launch-page"
 googleAnalytics = "UA-123456"
 
 [params]
-tagline = "We're launching a new, better solution."
+tagline = "Redefining the music industry by providing cutting-edge AI algorithms."
 mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
 
 twitter = "https://twitter.com/MyNewProduct"
