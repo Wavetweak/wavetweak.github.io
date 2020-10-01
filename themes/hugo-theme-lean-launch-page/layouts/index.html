@@ -15,11 +15,19 @@
 {{ end }}
 	<title>{{ .Site.Title }}</title>
 </head>
+
+
 <body>
+
+<div class="navbar" style="width: 80%; display:inline-block">
 {{ $directory := "themes/hugo-theme-lean-launch-page/static/" }}
 {{ $filename := "favicon.png" }}
-{{ if (where (readDir $directory) "Name" $filename) }}
-	<img class="logo" src="/favicon.png" alt="Logo" />
+{{ if (where (readDir $directory) "Name" $filename) }}	
+<ul class="social-icons" style="float: left;">
+	<li>
+		<img class="logo" src="/favicon.png" alt="Logo" onclick="javascript:window.location='/';" />
+	</li>
+</ul>
 {{ end }}
 	<ul class="social-icons">
 		{{ if isset .Site.Params "twitter" }}<li><a href="{{ .Site.Params.twitter }}"><i class="fa fa-twitter"></i></a></li>{{ end }}
@@ -31,6 +39,9 @@
 	</ul>
 	{{ block "main" . }}
 	{{ end }}
+
+</div>
+
 	<h1>{{ .Site.Title }}</h1>
 	<p>{{ .Site.Params.tagline }}</p>
 	{{ if isset .Site.Params "mailchimpurl" }}{{ partial "mailchimp-signup" . }}{{ end }}

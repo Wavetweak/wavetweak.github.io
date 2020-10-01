@@ -1,6 +1,6 @@
 ---
-title: "Smart share"
+title: "Style aware assistant"
 icon: "fa-share-alt-square"
 weight: 2
 ---
-Enhance your music production, by personal AI algorithm, which will accelerate your creative process while making a song
+Enhance quality of your music production, by personalised AI algorithm, which accelerates your creativity and gives You tips, while a song.
